@@ -153,7 +153,8 @@ class _HtmlEditorWidgetMobileState extends State<HtmlEditorWidget> {
                         useHybridComposition: widget
                             .htmlEditorOptions.androidUseHybridComposition,
                         loadWithOverviewMode: true,
-                      )),
+                      ),
+                  ),
                   initialUserScripts:
                       widget.htmlEditorOptions.mobileInitialScripts
                           as UnmodifiableListView<UserScript>?,
